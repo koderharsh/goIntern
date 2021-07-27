@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap");
+.login-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+  align-items: center;
+}
+.login-form {
+  width: calc(320px + 12vw);
+  height: calc(350px + 12vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+  border: 2px solid #8edaee;
+  margin-bottom: 15px;
+}
+.legend {
+  font-size: calc(18px + 0.8vw);
+  color: #707070;
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: calc(5px + 1.1vw);
+  padding-bottom: 40px;
+  border-bottom: 1px solid #8edaee;
+}
+.legend-highlight {
+  color: #29c8f4;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+}
+
+.forgetPassword {
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+  color: #aeb5b7;
+  font-size: 15px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.login-title {
+  font-size: calc(22px + 0.8vw);
+  color: #707070;
+  margin: calc(2vh + 1vw);
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+}
+.submit {
+  background-color: #18c2f0;
+  color: white;
+  width: 80%;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px 0;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.subs {
+  color: #aeb5b7;
+  font-size: calc(12px + 0.3vw);
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.subs-hightlight {
+  color: #51cdf0;
+}
