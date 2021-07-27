@@ -4,6 +4,7 @@
   width: 100vw;
   max-height: 100vh;
   flex-wrap: nowrap;
+  overflow-y: scroll;
 }
 
 .triangle-left {
